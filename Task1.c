@@ -2,12 +2,9 @@
 int main()
 {
     int x,y,z,f,k ;
-    printf("Please give the number ");
-    scanf("%d", &x);
-    printf("Please give the number ");
-    scanf("%d", &y);
-    printf("Please give the number ");
-    scanf("%d", &z);
+    printf("Please enter the numbers ");
+    scanf("%d %d %d", &x, &y, &z);
+    
     f=y+z;
     k=0;
     for (int i=y ; i <= f; i++)
